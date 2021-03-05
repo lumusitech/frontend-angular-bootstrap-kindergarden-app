@@ -10,6 +10,21 @@
 
 @mixin main-font
   font-family: 'Playfair Display', serif
-  font-weight: regular
-  font-style: normal
+  @include font-regular
 
+// Mixins font-weight
+@mixin font-regular
+  font-weight: regular
+@mixin font-regular-italic
+  font-weight: regular
+  font-style: italic
+@mixin font-medium
+  font-weight: medium
+@mixin font-medium-italic
+  font-weight: medium
+  font-style: italic
+@mixin font-bold
+  font-weight: bold
+@mixin font-bold-italic
+  font-weight: bold
+  font-style: italic
