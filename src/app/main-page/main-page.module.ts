@@ -11,7 +11,7 @@ import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [ContactFormComponent, LocationMapComponent, MainPageComponent, AboutComponent, SidebarComponent, SliderComponent],
-  exports:[MainPageComponent],
+  exports:[MainPageComponent, ContactFormComponent],
   imports: [
     CommonModule
   ]
