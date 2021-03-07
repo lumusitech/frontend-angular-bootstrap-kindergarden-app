@@ -12,4 +12,7 @@ export class ContactFormComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSubmit():void{
+    console.log("SUBMIT CALLED");
+  }
 }

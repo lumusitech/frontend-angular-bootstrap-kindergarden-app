@@ -6,6 +6,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { AboutComponent } from './about/about.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SliderComponent } from './slider/slider.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -13,7 +14,8 @@ import { SliderComponent } from './slider/slider.component';
   declarations: [ContactFormComponent, LocationMapComponent, MainPageComponent, AboutComponent, SidebarComponent, SliderComponent],
   exports:[MainPageComponent, ContactFormComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ]
 })
 export class MainPageModule { }
