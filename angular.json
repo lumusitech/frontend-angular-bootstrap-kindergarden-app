@@ -76,18 +76,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "kinder-garden:build"
+                      "buildTarget": "kinder-garden:build"
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "kinder-garden:build:production"
+                          "buildTarget": "kinder-garden:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "kinder-garden:build"
+                      "buildTarget": "kinder-garden:build"
                     }
                 },
                 "test": {
